@@ -2,10 +2,10 @@ import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
 public class Main {
-    final static Scanner scanner = new Scanner(System.in); // Do not change this line
+    final static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        greet("Aid", "2018"); // change it as you need
+        greet("Aid", "2018");
         remindName();
         guessAge();
         count();
@@ -66,7 +66,7 @@ public class Main {
     }
 
     static void end() {
-        System.out.println("Congratulations, have a nice day!"); // Do not change this text
+        System.out.println("Congratulations, have a nice day!");
     }
 
 
